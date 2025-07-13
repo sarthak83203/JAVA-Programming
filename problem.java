@@ -28,7 +28,7 @@ public class problem{
         int n=sc.nextInt();
         String str=Integer.toString(n);
         for(int i=0;i<str.length();i++){
-            char ch=str.charAt(i);
+            char ch=str.charAt(i); //Accesing the character
             int digit=ch-'0';  //This is conversion of character to string.
 
             if(digit%2==0){
@@ -37,6 +37,7 @@ public class problem{
                 System.out.print("*");
             }
         }
+        sc.close();
     }
 
 }
