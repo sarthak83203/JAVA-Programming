@@ -23,6 +23,7 @@ public class diamond_pattern {
             }
             System.out.println();
         }
+        sc.close();
         
     }
     
